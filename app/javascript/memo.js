@@ -25,7 +25,7 @@ function post (){
     XHR.onload = () => {
       if (XHR.status != 200){
         alert(`Error ${XHR.status}: ${XHR.statusText}`);
-        return null;
+        return nil;
       };
       const list = document.getElementById("list");
       const formText = document.getElementById("content");
